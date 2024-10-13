@@ -9,8 +9,8 @@ message = st.text_area("Enter the message to be spoken:")
 
 if st.button("Make Call"):
    # Twilio credentials
-   account_sid = "ACc2d71daa7ea067cb0d03eaab6d6886bf" 
-   auth_token = "41124fc7f7addb4c495de1e14d259ff9" 
+   account_sid = "ACc2d71daa7ea067cb0d03eaab6d6886bf"
+   auth_token = "41124fc7f7addb4c495de1e14d259ff9"
 
    # Initialize Twilio client
    client = Client(account_sid, auth_token)
